@@ -5,22 +5,17 @@ contents
 
 ### Create
 1. Create a Database
-
-"""SQL
+~~~ sql
 CREATE DATABASE some_database
-"""
+~~~
+
 2. Don't forget to use the database, so that only to write the table name (Database name no needed)
-"""SQL
+~~~sql
 USE some_database 
-"""
-"""SQL
+~~~
+
+~~~sql
 SELECT * FROM just_only_table_name
-"""
+~~~
 
-
-
-""" CREATE DATABASE some_database """
-2. Don't forget to use the database, so that only to write the table name  (no database name needed)
-""" USE some_database """
-""" SELECT * FROM just_only_table_name """
 
