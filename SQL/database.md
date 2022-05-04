@@ -3,6 +3,7 @@
 contents
 > * How to Create a Database and a Table?
 
+
 ### Create
 1. Create a Database
 ~~~ sql
