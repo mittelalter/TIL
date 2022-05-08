@@ -1,6 +1,6 @@
 # About Data cleaning skills that i've leanred from the Google data analyse course.
 
-contents
+## Contents
 > * concepts of function or words
 > * Data cleaning tools and techniques
 > * SQL concepts
@@ -8,6 +8,7 @@ contents
 
 
 ### Concepts you must know
+
 * Compatibility
     * How well two or more datasets are able to work together
 
@@ -28,35 +29,60 @@ contents
 
 
 
-### Week2 Cleaning data in spreadsheets
-1. Check out blanks
-Range the data - **Format** - click conditional formatting - click is empty - select color
+### Week2 Cleaning data in spreadsheets + Week 4 Documenting results and the cleaning process
 
-2. Remove duplicate
-**Data** - click data clean up - remove duplicate
+* **Check out blanks**
+    * Range the data - **Format** - click conditional formatting - click is empty - select color
 
-3. Make dates consistent
-select column - **Format** - click number - date
 
-4. Split a text string with delimeter
-select column - **Date** - click split text to commas (to be abel to seelct other delimeter options)
+* **Remove duplicate** 
+    * **Data** - click data clean up - remove duplicate
 
-5. Some useful functions
-**COUNTIF(range, 'value')**: return the number of cells that match a specified value
-**LEN** - for example use with conditional formatting like not euqal to 6 than the other numbers except 6 will be highlighted.
-**LEFT(range, number)**, **RIGHT**, **MID**, **CONCATENATE(A2," ", B2)**, **TRIM**
 
-3. Different data perspectives, sorting and filtering
-**Pivot table**: data summarization tool
-**VLOOKUP(data to look up, 'where to look'!Rangem, column, false)**: vertical lookup, function that searches for a certain value in a column to return a corresponding piece of information
-**Insert** - click pivot table 
-**Edit** - clikc find and replace 
+* **Make dates consistent** 
+    * select column - **Format** - click number - date
 
-4. Check if the numerical values is ok
-select column - **Insert** - click chart
+
+* **Split a text string with delimeter** 
+    * select column - **Date** - click split text to commas (to be abel to seelct other delimeter options)
+
+
+* **Some useful functions** 
+    * **COUNTIF(range, 'value')**: return the number of cells that match a specified value
+    * **LEN** - for example use with conditional formatting like not euqal to 6 than the other numbers except 6 will be highlighted.
+    * **LEFT(range, number)**, **RIGHT**, **MID**, **CONCATENATE(A2," ", B2)**, **TRIM**
+
+
+* **Different data perspectives, sorting and filtering** 
+    * **Pivot table**: data summarization tool
+    * **VLOOKUP(data to look up, 'where to look'!Rangem, column, false)**: vertical lookup, function that searches for a certain value in a column to return a corresponding piece of information
+    * **Insert** - click pivot table 
+    * **Edit** - clikc find and replace 
+
+
+* **Check if the numerical values is ok** 
+    * select column - **Insert** - click chart
+
+* **Find typo and replace it** 
+    * **Edit** - click find and replace
+
+* **time track and to see who changes the file and how** 
+    * **file** - clikc version history - see version history
+
+* **Advanced functions for speedy data cleaning**
+    * **IMPORTRAGEN**
+        * Keeping data clean and in sync with a sourceimport, date from one sheet to another and keeps it automatically updated
+
+    * **QUERY**
+        * Keeping data clean and in sync with a source
+
+    * **FILTER**:
+        * Filtering data to get what you want
+
 
 
 ### SQL concepts
+
 * Getting data from a table using SELECT statements.
 
 * De-duplicating data using commands like DISTINCT and COUNT + WHERE.
@@ -66,10 +92,6 @@ select column - **Insert** - click chart
 * Creating/dropping tables with CREATE TABLE and DROP TABLE.
 
 * Changing data types with CAST.
-
-
-
-
 
 
 
