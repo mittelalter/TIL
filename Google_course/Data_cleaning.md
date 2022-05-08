@@ -3,6 +3,8 @@
 contents
 > * concepts of function or words
 > * Data cleaning tools and techniques
+> * SQL concepts
+> * SQL functions that are useful to clean the data
 
 
 ### Concepts you must know
@@ -52,3 +54,32 @@ select column - **Date** - click split text to commas (to be abel to seelct othe
 
 4. Check if the numerical values is ok
 select column - **Insert** - click chart
+
+
+### SQL concepts
+* Getting data from a table using SELECT statements.
+
+* De-duplicating data using commands like DISTINCT and COUNT + WHERE.
+
+* Manipulating string data with TRIM() and SUBSTR.
+
+* Creating/dropping tables with CREATE TABLE and DROP TABLE.
+
+* Changing data types with CAST.
+
+
+
+
+
+
+
+### Useful SQL functions
+
+* Advanced funtions
+    * **CAST()** - The CAST() function converts a value (of any type)  into the specified datatype.
+    * **COALESCE** - The COALESCE() function returns the first non-null value in a list.
+
+* String function
+     **CCONCAT** - The CONCAT() function adds two or more expressions together.
+
+* 
