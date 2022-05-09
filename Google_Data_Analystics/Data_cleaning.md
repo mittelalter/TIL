@@ -1,10 +1,12 @@
-# About Data cleaning skills that i've leanred from the Google data analyse course.
+# About Data cleaning skills that i've leanred from the Google Data Analystics course.
 
 ## Contents
 > * concepts of function or words
 > * Data cleaning tools and techniques
 > * SQL concepts
 > * SQL functions that are useful to clean the data
+
+
 
 
 ### Concepts you must know
@@ -25,6 +27,8 @@
 
 * Foregin Key
     * A field within a table that is a primary key in another table
+
+
 
 
 
@@ -81,6 +85,8 @@
 
 
 
+
+
 ### SQL concepts
 
 * Getting data from a table using SELECT statements.
@@ -95,6 +101,8 @@
 
 
 
+
+
 ### Useful SQL functions
 
 * Advanced funtions
@@ -104,4 +112,3 @@
 * String function
      **CCONCAT** - The CONCAT() function adds two or more expressions together.
 
-* 
