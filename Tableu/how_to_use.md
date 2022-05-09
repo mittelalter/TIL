@@ -2,7 +2,14 @@
 
 contents
 > * how to set
+> * errors
 
 
 # How to set about Dashboard and add some Interactions
-1. click **Dashboard** - Action - filter - run action on **select** - cleaning the selection will **exclude all values** 
+* click **Dashboard** - Action - filter - run action on **select** - cleaning the selection will **exclude all values**
+
+
+
+# Errors
+* **Server** - runoptimize - if i can see take action, then hide all unused fields
+
