@@ -49,6 +49,7 @@ sns.barplot(x=flight_data.index, y=flight_data['NK'])
 plt.ylabel("Arrival delay (in minutes)")
 ~~~
 
+
 2. Heat map
 ~~~python
 # Set the width and height of the figure
@@ -60,6 +61,7 @@ plt.xlabel("Genre")
 # Add label for vertical axis
 plt.title("Average Game Score, by Platform and Genre")
 ~~~
+
 
 3. Scatter Plot
 ~~~python
@@ -78,10 +80,12 @@ sns.lmplot(x="bmi", y="charges", hue="smoker", data=insurance_data)
 sns.swarmplot(x=insurance_data['smoker'], y=insurance_data['charges'])
 ~~~
 
+
 4. Histogram
 ~~~python
 sns.distplot(a=iris_data['Petal Length (cm)'], kde=False)
 ~~~
+
 
 5. Density plot
 ~~~python
@@ -100,6 +104,7 @@ plt.legend()
 
 then, use plt.legend()
 
+
 6. 2D KDE plot
 ~~~python
 sns.jointplot(x=iris_data['Petal Length (cm)'], y=iris_data['Sepal Width (cm)'], kind="kde")
@@ -113,3 +118,9 @@ sns.kdeplot(data=iris_ver_data['Petal Length (cm)'], label="Iris-versicolor", sh
 sns.kdeplot(data=iris_vir_data['Petal Length (cm)'], label="Iris-virginica", shade=True)
 ~~~
 then use label to set the value in legend.
+
+
+7. Custom style
+~~~python
+sns.set_style("dark") #white, ticks, whitegrid, darkgrid
+~~~
