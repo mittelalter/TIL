@@ -4,7 +4,7 @@
 > * Sorting datesets in Excel
 > * Functions
 > * Convert and Format data
-    > * Data Validation
+    * Data Validation
 
 
 
@@ -39,3 +39,10 @@
 
 * **Data Validation**
     - **Data** - Data validation
+
+* **Value**
+    - Convert a text string to a numerical value
+
+* **VLOOKUP**
+    - A spreadsheet function that vertically searches for a certain value in a column to return a corresponding piece of information
+    - VLOOKUP(A2,'Employee Rates'!A2:B5, 2, False)
