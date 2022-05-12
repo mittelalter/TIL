@@ -80,3 +80,5 @@
 
 * **Return multiple rows**
     - Subqueries that return more than one row rely on multiple value operators such as the IN command.
+
+*
