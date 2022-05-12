@@ -53,7 +53,10 @@
 * **SUMIF**
     - The first range is where the function will search for the condition that you have set. The criterion is the condition you are applying and the sum_range is the range of cells that will be included in the calculation.
 
-* **AVERAGEIF**
+* **AVERAGEIF/S**
+    - range, condition, what i want to
+    - what i want to, range1, condition1, range2, condtion2
+
 
 * **MAXIF**
     - The first argument, max_range, is the array over which you are finding the maximum. The second argument (range1) is the array you are checking. The third argument (criteria1) is the value that you are checking for. The inputs in the square brackets are for optional additional constraints.=MAXIFS(D2:D21, B2:B21, "NY")
