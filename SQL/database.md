@@ -97,5 +97,9 @@ DELETE FROM table_name WHERE id(row) = 1;
 ~~~sql
 ALTER TABLE table_name ADD column col_type(ex, char(1)) property(ex, null)
 
-ALTER TABLE table_name RENAME old_col_name TO new_col_name
+ALTER TABLE table_name RENAME COLUMN old_col_name TO new_col_name
+
+ALTER TABLE table_name DROP COLUMN column_name
+
+ALTER TALBE table_name MODIFY column_name INT/STR/whatever
 ~~~

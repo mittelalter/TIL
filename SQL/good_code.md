@@ -1,7 +1,7 @@
 # About just stroing good code to review them sometimes
 
 contents
-> * Save some SQL codes which brought me 'aha'
+> * Save some SQL codes which brought me 'aha' / wrong note
 
 
 ### By Hacker Rank
@@ -18,6 +18,10 @@ WHERE DATETIME = (SELECT MIN(DATETIME) FROM ANIMAL_INS)
 ~~~
 
 
+***
+
+
+### programmers
 ~~~sql
 -- 프로그래머스 GROUP BY 문제
 -- HOUR함수와 WHERE절로 조건을 또 추가할 수 있다는 부분을 배움.
@@ -31,4 +35,6 @@ GROUP BY HOUR(datetime)
 
 ORDER BY HOUR(datetime)
 ~~~
+
+
 
