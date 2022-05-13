@@ -5,6 +5,7 @@
 > * Functions from Excel
 > * Convert and Format data
 > * SQL Functions / Subquery
+> * Pivot table
 
 
 
@@ -81,4 +82,9 @@
 * **Return multiple rows**
     - Subqueries that return more than one row rely on multiple value operators such as the IN command.
 
-*
+
+***
+
+* **Pivot table**
+- Can create group by with right click menu
+- The Summarize By drop-down menu changes the function applied to the values. The SUM function is the default function, but there are other options, such as COUNT
