@@ -101,5 +101,15 @@ ALTER TABLE table_name RENAME COLUMN old_col_name TO new_col_name
 
 ALTER TABLE table_name DROP COLUMN column_name
 
-ALTER TALBE table_name MODIFY column_name INT/STR/whatever
+-- property, null value or default set
+ALTER TABLE table_name MODIFY column_name INT/STR/whatever NOT NULL/NULL DEFAULT 101
+~~~
+
+
+* CONSTRAINT
+
+~~~sql
+ALTER TABLE table_name ADD CONSTRAINT my_rule CHECK (price > 100)
+
+ALTER TABLE table_name DROP my_rule
 ~~~
