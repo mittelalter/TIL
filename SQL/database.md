@@ -113,3 +113,19 @@ ALTER TABLE table_name ADD CONSTRAINT my_rule CHECK (price > 100)
 
 ALTER TABLE table_name DROP my_rule
 ~~~
+
+
+* COPY TABLE
+
+~~~sql
+-- copy all rows from the table which i want to copy
+CREATE TABLE copy_table_name AS SELECT * FROM some_table
+~~~
+
+~~~sql
+-- copy all columns from some_table 
+CREATE TABLE copy_table_name LIKE some_table
+
+-- now i have columns so copy all rows
+INSERT INTO copy_table_name SELECT * FROM some_table
+~~~
