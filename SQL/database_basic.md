@@ -3,6 +3,7 @@
 contents
 > * How to Create a Database and a Table and how to insert/update/delete the data in it ?
 > * Handle the table
+> * Foreign Key
 
 
 ### Create
@@ -129,3 +130,11 @@ CREATE TABLE copy_table_name LIKE some_table
 -- now i have columns so copy all rows
 INSERT INTO copy_table_name SELECT * FROM some_table
 ~~~
+
+
+***
+
+
+### Foreign Key
+
+* 
