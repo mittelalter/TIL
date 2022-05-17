@@ -132,9 +132,9 @@ INSERT INTO copy_table_name SELECT * FROM some_table
 ~~~
 
 
-***
-
 
 ### Foreign Key
 
-* 
+* Restrict
+* Cascade
+* Set null 
