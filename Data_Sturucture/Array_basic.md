@@ -2,6 +2,7 @@
 
 Contents
 > * Array basic
+> * Linked List
 
 
 # Array basic
@@ -16,4 +17,15 @@ Contents
 * 삽입 연산(insert operation)
     - 정적 배열에 남는 공간이 있을때: O(n)
     - 정적 배열이 꽉 찼을 때: O(n)
+<br>
+<br>
+
+# Linked List
+* 데이터 순서대로 저장, 요소 추가 가능.
+~~~python
+class Node():
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+~~~
 
