@@ -18,3 +18,4 @@ contents
 
 # Design Principles
 * Notice about deaggrate measure and aggrate measure by scatterplot
+* Absoulute function(abs): for example, a histogram needs to be scaled at zero. so i can use abs function so that the number is going be always positive not negativ (click Edit itself)
