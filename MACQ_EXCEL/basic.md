@@ -13,3 +13,6 @@ Contents
 
 ## Week 2
 * F4 absolute reference short cut
+
+## Week 3
+* Format Painter, Layout
