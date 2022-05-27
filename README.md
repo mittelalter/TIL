@@ -9,5 +9,5 @@
 
 
 #### Purpose 2: Learning everyday
-* Commit everyday with stuffs what I've leanred today
+* Commit everyday what I've leanred today
 
