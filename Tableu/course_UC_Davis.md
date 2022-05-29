@@ -28,3 +28,4 @@ contents
 * Continuous Data - marked as **green** in tableau (height, weight, something continuous is)
 * Discrete Data - marked as **blue** (Car accident, profit, something can be measured or counted)
 * By dual line charts, thinking about Syncronize axis to be measured correctly
+* Using parameters to make a calculate field and using quick calculate field helps the work a lot.
