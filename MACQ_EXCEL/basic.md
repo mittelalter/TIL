@@ -36,3 +36,15 @@ Contents
 <br>
 
 ## Week 4
+* Find and Replace
+* Shortcuts
+    * CTRL + 0 (CMD + 0) -- Hide the column containing the selected cell.
+    * CTRL + 9 (CMD + 9) -- Hide the row containing the selected cell.
+    * CTRL + SHIFT + 0 (CMD + SHIFT + 0) -- Unhide the column containing the selected cell. (Select cells surrounding hidden column) In some versions of Windows, this shortcut is assigned to a Windows feature. If you have difficulty getting this keyboard shortcut to work you should follow the instructions in this article to disable the shortcut for that feature.
+    * CTRL + SHIFT + 9 (CMD + SHIFT + 9) -- Unhide the row containing the selected cell. (Select cells surrounding hidden row)
+    * CTRL + SHIFT + L (CMD + SHIFT + F) -- Add or remove a filter
+
+<br>
+
+# Week 5
+* 
