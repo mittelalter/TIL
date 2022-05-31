@@ -45,7 +45,7 @@ Contents
         
 
 * **행렬 곱셈**
-    * 내적곱
+    * 내적곱 A @ B, 요소별 곱 A * B (차원이 무조건 같아야함)
     * 행렬 A와 B가 있다고 할때, 
 
     * A =
@@ -62,3 +62,11 @@ Contents
     * 21 17
 
     * A의 row와 B의 col수가 같기 때문에 곱셈가능
+
+    * A = m x n
+    * B = n x P
+    * AB = m x p, A의 column과 B의 row수가 같기 때문에 곱셈가능.
+
+* **행렬 종류**
+    * 전치 행렬(transposed Matrix)
+    * A -> AT
