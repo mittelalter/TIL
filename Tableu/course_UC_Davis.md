@@ -29,3 +29,4 @@ contents
 * Discrete Data - marked as **blue** (Car accident, profit, something can be measured or counted)
 * By dual line charts, thinking about Syncronize axis to be measured correctly
 * Using parameters to make a calculate field and using quick calculate field helps the work a lot.
+* Dual Layer Mapping: ctrl + right click and drag and customize, and then dual axis, which combines two maps in one again.
