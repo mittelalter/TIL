@@ -63,3 +63,9 @@ Contents
     The SHIFT key:  When you use the SHIFT key in conjunction with your mouse to select cells, you can select whole ranges. Single click on your first cell, press down Shift - hold it down, then single-click the last cell of your selection. All cells between your first and last cell will be selected.
 
     * The CTRL key:  When you hold the CTRL key and click cells/columns/rows with your mouse you can select multiple items that are non-contiguous. Non-contiguous means the items are not directly next to each other.
+
+
+<br>
+
+# Week 6
+* Creating Charts and Graphs
