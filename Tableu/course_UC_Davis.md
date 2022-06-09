@@ -1,9 +1,10 @@
 # About how to use Tablue Viz tool
 
-contents
+Contents
 > * How to use basic tools
 > * Design Principles
 > * Visual Analytics (Charts)
+> * Creating Dashboards and Storytelling with data
 
 <br>
 
@@ -30,3 +31,8 @@ contents
 * By dual line charts, thinking about Syncronize axis to be measured correctly
 * Using parameters to make a calculate field and using quick calculate field helps the work a lot.
 * Dual Layer Mapping: ctrl + right click and drag and customize, and then dual axis, which combines two maps in one again.
+
+<br>
+
+# Creating Dashboards and Storytelling with data
+* By making filters in Dashboard, click apply worksheets to adjust the filters not only just for one sheet but for all sheets.
