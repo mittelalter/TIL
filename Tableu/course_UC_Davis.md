@@ -36,3 +36,4 @@ Contents
 
 # Creating Dashboards and Storytelling with data
 * By making filters in Dashboard, click apply worksheets to adjust the filters not only just for one sheet but for all sheets.
+* To have more interactive filter, click dashboard -> action
