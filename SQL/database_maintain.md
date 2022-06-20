@@ -1,4 +1,4 @@
-# About SQL Code
+# About how to maintain database with mysql
 
 contents
 > * How to Create a Database and a Table and how to insert/update/delete the data in it ?
