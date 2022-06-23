@@ -3,6 +3,7 @@
 Contents
 > * Week1 Multiple Worksheets and Workbooks
 > * Week3 Name Ranges
+> * Week4 Count/Countifs/
 
 
 # Multiple Worksheets and Workbooks
@@ -24,3 +25,9 @@ Contents
     * Ctrl+Shift+F3 Create Names from Selection
     * Named Ranges
         * Named Ranges are a way to give a memorable name to a single cell or range of cells. You can then   use this Named Range in formulas where it functions like an absolute cell reference. It can also make your formulas more readable because the name has more meaning than a cell reference. For example, =N4*Pension_Rate is more meaningful than =N4*$P$2.
+
+# Count functions/Splink
+* Functions
+    * COUNT - count only numeric values
+    * COUNTA - count numeric and alphabetical values
+    * COUNTBLANK - count blanks
