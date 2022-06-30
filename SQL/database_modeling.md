@@ -3,6 +3,7 @@
 Contents
 > * 데이터 모델링
 > * 논리적 모델링
+> * 정규화
 > * 물리적 모델링
 
 
@@ -39,3 +40,28 @@ Contents
     * 컬럼을 몇 개를 만들어야 되는지 애매해진다
     * 조회가 비효율적이게 된다
     * 주소를 컬럼이 아니라, 새로운 테이블(Entity)로 만든다. 이렇게 하면 방금 본 세 가지의 문제점이 생기지 않으며, 깔끔하게 모델링을 할 수 있다.
+* ERM을 활용하면 회사의 전반적인 데이터 베이스 구조를 쉽게 파악 할 수 있다. 카디널리티를 사용하여 데이터 테이블간 관계를 쉽게 설정 할 수 있다.
+
+<br>
+
+# 정규화(Normalization)
+* 장점
+    * 데이터베이스에서 삽입, 업데이트, 삭제이상을 없앤다.
+    * 새로운 종류의 데이터를 추가할 때 테이블 구조 수정을 안 해도 된다.
+    * 데이터베이스 구조를 단순화해서 사용자가 더 쉽게 이해할 수 있다.
+* **1NF**
+    * 테이블 안 모든 로우의 모든 컬럼 값들은 나눌 수 없는 단일값 이어야 한다.
+    * 한 컬럼에 같은 종류의 값을 여러 개 저장하고 있을 때
+        * 이때는 해당 컬럼을 하나의 테이블로 분리해서 모델링합니다.
+    * 한 컬럼에 서로 다른 종류의 값을 여러 개 저장하고 있을 때
+        * 이때는 한 컬럼을 여러 개로 분리해서 모델링합니다.
+* **함수 종속성 (Function Dependency)**
+    * y = 2x + 1 --> x의 값에따라 y가 바뀐다. 즉, y는 x에 대한 함수 종속성이 있다. x -> y
+    * 상품(x)의 사이즈와 가격은 상품에 따라 바뀐다. 즉, 사이즈와 가격은 상품에 대한 종속성이 있다. 상품 -> {사이즈, 가격}
+    * score(y)는 user와 product에 따라 바뀐다. 즉, score는 user와 product에 대한 종석성이 있다. {user, product} -> score
+    * 함수 종속성의 이행성: product -> brand -> brand_country brand는 product 에따라 바뀌고, brand country 는 brand 에 따라 바뀐다. 즉, brand는 product에 대한 종속성이 있고, brand country는 brand에 대한 종속성이 있다.
+* **Candidate Key**
+    * 하나의 row를 특정지을 수 있는 attribute들의 최소 집합
+    * ID는 Candidate Key이다. 각각의 로우를 특정지을 수 있기 때문이다. (Prime attribute)
+* **2NF**
+    * 테이블에 candidate key의 일부분에 대해서만 함수 종속성이 있는 non-prime attribute가 없어야한다. 즉, user id, product id, age, price가 있을 때 age는 user에 대한 종속성이 있고, price는 product에 대한 종속성이 있기 때문에, (user -> age, product -> price) candidate key의 {user id, product id}전체가아닌 일부에만 의존하고 있다고 할 수 있다. 그래서 2NF에 부합하지 않는다.
