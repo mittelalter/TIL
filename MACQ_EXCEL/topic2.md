@@ -4,6 +4,7 @@ Contents
 > * Week1 Multiple Worksheets and Workbooks
 > * Week3 Name Ranges
 > * Week4 Count/Countifs/
+> * Week5 Table
 
 
 # Multiple Worksheets and Workbooks
@@ -31,3 +32,16 @@ Contents
     * COUNT - count only numeric values
     * COUNTA - count numeric and alphabetical values
     * COUNTBLANK - count blanks
+
+
+# Table
+* shortcuts
+    * Ctrl+T (Cmd+T or Ctrl+T) — Insert Table
+
+    * Shift+Space (Shift+Space) — Select table row
+
+    * Ctrl+Space (Ctrl+Space) — Select table column
+
+    * Ctrl+A (Cmd+A) — Select table
+
+    * Ctrl+. — Move between the corners of a table
