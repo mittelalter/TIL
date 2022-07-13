@@ -65,3 +65,14 @@ Contents
     * ID는 Candidate Key이다. 각각의 로우를 특정지을 수 있기 때문이다. (Prime attribute)
 * **2NF**
     * 테이블에 candidate key의 일부분에 대해서만 함수 종속성이 있는 non-prime attribute가 없어야한다. 즉, user id, product id, age, price가 있을 때 age는 user에 대한 종속성이 있고, price는 product에 대한 종속성이 있기 때문에, (user -> age, product -> price) candidate key의 {user id, product id}전체가아닌 일부에만 의존하고 있다고 할 수 있다. 그래서 2NF에 부합하지 않는다.
+
+
+# 물리적 모델링
+* 네이밍의 중요성
+* 데이터 타입
+    * 데이터 정확성
+    * 데이터 함수,연산 사용을 위해서
+    * 데이터 용량을 최적화하기 위해서
+* 인덱스 정리
+    * Clustered
+    * Non-Clustered
