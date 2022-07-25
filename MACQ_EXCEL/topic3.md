@@ -2,6 +2,7 @@
 
 Contents
 > * Week1 Data validation with advanced conditional formatting
+> * Week2 IF, AND, OR
 
 
 
@@ -9,3 +10,4 @@ Contents
 * Use name range, table with data validation and conditional formatting
 
 # Week2
+* IF, AND, OR, IFERROR, IFNA functions
