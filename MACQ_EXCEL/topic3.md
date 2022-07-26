@@ -3,6 +3,7 @@
 Contents
 > * Week1 Data validation with advanced conditional formatting
 > * Week2 IF, AND, OR
+> * Week3 ChOOSE, VLOOKUP, 
 
 
 
@@ -11,3 +12,8 @@ Contents
 
 # Week2
 * IF, AND, OR, IFERROR, IFNA functions
+
+# Week3
+* Use VLOOKUP to categorize the values
+* Use Match Function so that i have column numbers and then use VLOOKUP fucntion (paste formulars will be recognize as absolute)
+* 
