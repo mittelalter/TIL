@@ -1,8 +1,9 @@
 # About Statistic Concepts from Standford University
 
 * Contents
-> * Charts
-> * Probability
+> * 1. Charts
+> * 2. Probability
+> * 3. Normal Curve
 
 
 # Charts
@@ -18,3 +19,12 @@
     * They cannot occur at the same time.
     * A good example is flipping a coin.
 * **Multiple**: If A **and** B are independent, then P(A and B) = P(A) P(B)
+    * We can use the general multiplication rule for independent events.\
+
+<br>
+
+# 3. Normal Curve
+* Normal Curve
+    * Emprical Rule, Standardize Data, Normal Approximation
+    * The Binomial Setting and Binomial Coefficient
+    * 
